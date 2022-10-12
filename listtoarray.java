@@ -13,8 +13,11 @@ class Main {
     // Create a new array of String type
     String[] arr = new String[languages.size()];
 
-    // help to convert list to array
-   
+    // Convert ArrayList into the string array
+    languages.toArray(arr);
+    System.out.print("Array: ");
+    for(String item:arr) {
+      System.out.print(item+", ");
     }
   }
 }
